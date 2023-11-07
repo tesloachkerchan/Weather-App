@@ -1,0 +1,61 @@
+body{
+    background: rgb(0, 174, 255);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+}
+.search{
+    background: #fff;
+    width: 25%;
+    padding: 30px;
+    flex: 0.4;
+    margin-left: 100px;
+}
+
+.search h1 {
+    font-size: 24px;
+    color: rgb(0, 174, 255);
+}
+.search #searchButton{
+    background-color: rgb(0, 174, 255);
+    border: none;
+    color: #fff;
+    width: 50%;
+    cursor: pointer;
+}
+#result{
+    background: #fff;
+    width: 25%;
+    padding: 100px;
+    flex: 0.5;
+    height: 50%;
+    margin-right: 100px;
+    bottom: 0;
+}
+#result #wapp-header{
+    font-size: 24px;
+    color: rgb(0, 174, 255);
+}
+#result #temperatureButtons button{
+    background: rgb(0, 174, 255);
+    color: #fff;
+    border: none;
+}
+
+input {
+    padding: 5px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
